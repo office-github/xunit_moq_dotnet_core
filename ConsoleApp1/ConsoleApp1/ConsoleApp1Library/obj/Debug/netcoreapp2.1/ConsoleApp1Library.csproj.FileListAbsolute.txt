@@ -1,0 +1,9 @@
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\bin\Debug\netcoreapp2.1\ConsoleApp1Library.deps.json
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\bin\Debug\netcoreapp2.1\ConsoleApp1Library.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\bin\Debug\netcoreapp2.1\ConsoleApp1Library.pdb
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\obj\Debug\netcoreapp2.1\ConsoleApp1Library.csproj.CoreCompileInputs.cache
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\obj\Debug\netcoreapp2.1\ConsoleApp1Library.AssemblyInfoInputs.cache
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\obj\Debug\netcoreapp2.1\ConsoleApp1Library.AssemblyInfo.cs
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\obj\Debug\netcoreapp2.1\ConsoleApp1Library.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\obj\Debug\netcoreapp2.1\ConsoleApp1Library.pdb
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\ConsoleApp1Library\obj\Debug\netcoreapp2.1\ConsoleApp1Library.csprojAssemblyReference.cache
