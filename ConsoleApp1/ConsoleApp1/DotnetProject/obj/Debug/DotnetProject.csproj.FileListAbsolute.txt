@@ -1,0 +1,10 @@
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\obj\Debug\DotnetProject.csproj.CoreCompileInputs.cache
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\bin\Debug\DotnetProject.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\bin\Debug\DotnetProject.pdb
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\bin\Debug\System.Security.AccessControl.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\bin\Debug\System.Security.Permissions.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\bin\Debug\System.Security.Principal.Windows.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\obj\Debug\DotnetProject.csproj.CopyComplete
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\obj\Debug\DotnetProject.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetProject\obj\Debug\DotnetProject.pdb

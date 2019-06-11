@@ -1,0 +1,16 @@
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\DotnetConsole.exe.config
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\DotnetConsole.exe
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\DotnetConsole.pdb
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\EntityFramework.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\System.Security.AccessControl.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\System.Security.Permissions.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\System.Security.Principal.Windows.dll
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\EntityFramework.xml
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\bin\Debug\EntityFramework.SqlServer.xml
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\obj\Debug\DotnetConsole.csproj.CoreCompileInputs.cache
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\obj\Debug\DotnetConsole.csproj.CopyComplete
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\obj\Debug\DotnetConsole.exe
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\obj\Debug\DotnetConsole.pdb
+D:\Practice\ConsoleApp\ConsoleApp1\ConsoleApp1\DotnetConsole\obj\Debug\DotnetConsole.csprojAssemblyReference.cache
