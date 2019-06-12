@@ -9,7 +9,8 @@ namespace DotnetConsole
   {
     private PracticeContext context =  null;
 
-    public DbSet<T> Table => this.context.Set<T>();
+    public DbSet<T> Entities => this.context.Set<T>();
+    public IQueryable<T> Table => this.Entities;
 
     public Repository(PracticeContext context)
     {
@@ -20,7 +21,7 @@ namespace DotnetConsole
     {
       try
       {
-        T t = this.Table.Add(entity);
+        T t = this.Entities.Add(entity);
         this.context.SaveChanges();
         return t;
       }

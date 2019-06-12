@@ -2,6 +2,16 @@
 
 namespace DotnetConsole
 {
+  public class TeacherMap : EntityTypeConfiguration<Teacher>
+  {
+    public TeacherMap()
+    {
+      this.ToTable("Teacher");
+      this.Property(s => s.ID).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
+      this.Property(s => s.Name);
+    }
+  }
+
   public class StudentMap: EntityTypeConfiguration<Student>
   {
     public StudentMap()

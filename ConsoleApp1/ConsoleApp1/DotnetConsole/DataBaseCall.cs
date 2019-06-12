@@ -3,20 +3,54 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace DotnetConsole
 {
   public class DataBaseCall
   {
-    public static List<Student> Students
+    public static List<Teacher> GetTeachers(Expression<Func<Teacher, bool>> expression)
     {
-      get
+      try
       {
-        using(PracticeContext context = new PracticeContext())
-        {
-          Repository<Student> repository = new Repository<Student>(context);
-          return repository.Table.ToList();
-        }
+        return Execute<List<Teacher>, Teacher>((repository) => {
+          return repository.Table.Where(expression).ToList();
+        });
+      }
+      catch (Exception ex)
+      {
+        Console.WriteLine(ex);
+        return null;
+      }
+    }
+
+    public static Teacher Insert(Teacher teacher)
+    {
+      try
+      {
+        return Execute<Teacher, Teacher>((repository) => {
+          return repository.Insert(teacher);
+        });
+      }
+      catch (Exception ex)
+      {
+        Console.WriteLine(ex);
+        return null;
+      }
+    }
+
+    public static List<Student> GetStudents(Expression<Func<Student, bool>> expression)
+    {
+      try
+      {
+        return Execute<List<Student>, Student>((repository) => {
+          return repository.Table.Where(expression).ToList();
+        });
+      }
+      catch(Exception ex)
+      {
+        Console.WriteLine(ex);
+        return null;
       }
     }
 
@@ -33,10 +67,16 @@ namespace DotnetConsole
     {
       get
       {
-        using (PracticeContext context = new PracticeContext())
+        try
         {
-          Repository<Branch> repository = new Repository<Branch>(context);
-          return repository.Table.ToList();
+          return Execute<List<Branch>, Branch>((repository) => {
+            return repository.Table.ToList();
+          });
+        }
+        catch (Exception ex)
+        {
+          Console.WriteLine(ex);
+          return null;
         }
       }
     }
@@ -204,6 +244,22 @@ namespace DotnetConsole
       {
         Console.WriteLine(ex);
         throw new Exception("Error Occured.");
+      }
+    }
+
+    private static TResult Execute<TResult, T>(Func<Repository<T>, TResult> func) where T: class
+    {
+      using(PracticeContext context = new PracticeContext())
+      {
+        try
+        {
+          return func(new Repository<T>(context));
+        }
+        catch(Exception ex)
+        {
+          Console.WriteLine(ex);
+          throw new Exception("Error Occured.");
+        }
       }
     }
   }

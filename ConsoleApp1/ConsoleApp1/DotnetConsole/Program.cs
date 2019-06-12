@@ -96,7 +96,8 @@ namespace DotnetConsole
     {
       try
       {
-        Database.SetInitializer(new DropCreateDatabaseIfModelChanges<PracticeContext>());
+        Database.SetInitializer(new MigrateDatabaseToLatestVersion<PracticeContext, Migrations.Configuration>());
+        //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<PracticeContext>());
         //DataBaseCall.SearchStudentByIQuerable();
         //DataBaseCall.SearchStudentByIEnumerable();
         //DataBaseCall.SearchStudentByToList();
@@ -104,12 +105,16 @@ namespace DotnetConsole
         //DataBaseCall.GetStudents();
         //DataBaseCall.Insert(new Student { Name = "Pratik Hero" });
         //var students = DataBaseCall.Students;
-        DataBaseCall.Insert(new Branch { Name = "ME" });
-        var students = DataBaseCall.Branches;
+        //DataBaseCall.Insert(new Branch { Name = "ME" });
+        //DataBaseCall.Insert(new Teacher { Name = "English Teacher" });
+        //DataBaseCall.Insert(new Teacher { Name = "Nepali Teacher" });
+        DataBaseCall.GetTeachers((teacher) => teacher.ID == 2).ForEach(b => Console.WriteLine($"Teacher Id: {b.ID}, Teacher Name: {b.Name}"));
+        DataBaseCall.GetStudents((student) => true).ForEach(b => Console.WriteLine($"Student Id: {b.ID}, Student Name: {b.Name}"));
+        DataBaseCall.Branches.ForEach(b => Console.WriteLine($"Branch Id: {b.ID}, Branch Name: {b.Name}"));
       }
       catch(Exception ex)
       {
-        Console.WriteLine("Error occured while performing student operation.", ex);
+        Console.WriteLine("Error occured while performing student operation.", ex.ToString());
       }
     }
 
